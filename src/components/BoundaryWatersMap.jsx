@@ -112,7 +112,7 @@ export default function BoundaryWatersMap() {
       
       <div className="flex flex-1 overflow-hidden">
         {/* Map container */}
-        <div className="flex-grow relative">
+        <div className="flex-grow relative map-container-div">
           <MapContainer
             center={[47.9, -91.8]} // Centered on the Boundary Waters
             zoom={9}
